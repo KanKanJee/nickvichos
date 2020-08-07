@@ -1,0 +1,13 @@
+/*!---------- 15. STATS ----------*/
+.stat-2 h1 {
+  font-size: 80px;
+  line-height: 88px;
+}
+.stat-3 h1 {
+  margin-bottom: 8px;
+  font-size: 72px;
+  line-height: 80px;
+}
+.stat-3 h6 {
+  margin-bottom: 0;
+}

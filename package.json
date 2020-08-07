@@ -1,0 +1,17 @@
+{
+  "name": "foundry-1.9.9.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:less": "less-watch-compiler  css/less/ css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^3.12.2"
+  },
+  "dependencies": {
+    "less-watch-compiler": "^1.13.0"
+  }
+}

@@ -1,0 +1,73 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+.vph {
+    height: 80vh;
+
+}
+
+.noheight {min-height: 0; }
+
+.trsprent {
+    background: transparent;
+
+}
+
+
+
+
+.h1x{ font-size: 72px; line-height: 80px; font-weight: 100; }
+
+@media all and (max-width: 990px){
+	.h1x{ font-size: 56px; line-height: 64px; }
+}
+
+@media all and (max-width: 767px){
+	.h1x{ font-size: 32px; line-height: 40px; font-weight: 300; }
+	
+}
+
+.white {
+    color: white;
+    font-weight: 400;
+}
+
+.white:hover {
+    color: white;
+}
+
+.grey:hover {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.grey {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.lozad[data-background-image]{ 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    object-fit: cover; 
+    background-size: cover;
+    background-position: center center;
+}
+
+noscript div {
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    object-fit: cover; 
+    background-size: cover;
+    background-position: center center;
+
+}
+

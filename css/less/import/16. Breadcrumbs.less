@@ -1,0 +1,19 @@
+/*!---------- 16. BREADCRUMBS ----------*/
+
+.breadcrumb{ margin-bottom: 24px; }
+.breadcrumb-2{ background: none; padding: 0; }
+.breadcrumb-2 li a, .breadcrumb-2 li{ .bold-h6; font-size: 11px; font-weight: 600; }
+.breadcrumb-2>li+li:before{ padding: 0 16px; color: #bbb; }
+.image-bg .breadcrumb li a{ color: #fff; opacity: .8; }
+.image-bg .breadcrumb li a:hover{ opacity: 1; }
+.image-bg .breadcrumb li.active{ color: #fff; }
+.bg-dark .breadcrumb a{ color: #fff; }
+
+@media all and (max-width: 990px){
+	.page-title-4 .breadcrumb, .page-title-2 .breadcrumb{ float: left; margin-top: 32px; }
+}
+
+@media all and (max-width: 767px){
+	.breadcrumb-2>li+li:before{ padding: 0 4px; }
+	.page-title-4 .breadcrumb, .page-title-2 .breadcrumb{ float: left; margin-top: 8	px; }
+}

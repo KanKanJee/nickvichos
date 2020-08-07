@@ -1,0 +1,28 @@
+/*!---------- 4. COLOURS ----------*/
+/*!---------- @hyperblu: #2B87DA; ----------*/
+/*!---------- @dustsrtorm: #E8D1C0; ----------*/
+/*  @wenge: #695F54 */
+.bg-primary {
+  background: #847063 !important;
+}
+.bg-secondary {
+  background: #f8f8f8;
+}
+.bg-white {
+  background: #fff;
+}
+.bg-dark {
+  background: #505B66;
+}
+.color-body {
+  color: #EED9BD;
+}
+.color-primary {
+  color: #847063 !important;
+}
+.color-red {
+  color: #e31d3b !important;
+}
+.color-white {
+  color: #fff;
+}

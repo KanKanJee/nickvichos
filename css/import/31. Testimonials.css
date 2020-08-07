@@ -1,0 +1,32 @@
+/*!---------- 31. TESTIMONIALS ----------*/
+.testimonials h4 {
+  line-height: 40px;
+}
+.testimonials .quote-author {
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+  width: 250px;
+  margin-top: 24px;
+}
+.testimonials .quote-author img {
+  max-height: 60px;
+  float: left;
+  display: inline-block;
+  margin-right: 16px;
+}
+.testimonials .quote-author h6 {
+  display: inline-block;
+  margin-bottom: 0;
+  line-height: 18px;
+  padding-top: 14px;
+}
+.testimonials .quote-author span {
+  display: block;
+  line-height: 18px;
+}
+@media all and (max-width: 767px) {
+  .testimonials h4 {
+    line-height: 26px;
+  }
+}
