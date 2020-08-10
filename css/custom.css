@@ -215,7 +215,7 @@ br {
        background-position: center  !important;
    }
 
-   @media all and (max-width: 690px) {
+   /* @media all and (max-width: 690px) {
     
     .headimg {
         background-position: 70% 15%  !important;
@@ -228,7 +228,7 @@ br {
        height: 58vh;
    }
 
-
+*/
 
    @media all and (min-width: 990px) {
        .pad990 {
